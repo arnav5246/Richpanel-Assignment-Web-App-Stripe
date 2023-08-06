@@ -1,0 +1,110 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1E4C91;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  .parent-container {
+    background-color: #1E4C91;
+    display: flex;
+    /* width: 55%; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+  }
+  
+  .payment-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+  
+  .card-details, .order-summary {
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .card-details {
+    flex: 1;
+    margin-right: 0px;
+    font-size: 12px;
+    border-top-right-radius: 0px; 
+    border-bottom-right-radius: 0px;
+  }
+  
+  .order-summary {
+    flex: 1;
+    background-color: #D3D3D3;
+    padding: 20px;
+    margin-right: 0px;
+    border-top-left-radius: 0px; 
+    border-bottom-left-radius: 0px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    flex: 1;
+    flex-direction: row;
+    background-color: #fff;
+    border: 1px solid grey;
+    border-radius: 5px;
+
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: grey;
+  }
+  
+  input[type="text"] {
+    width: 29%;
+    padding: 8px;
+    margin: 0px;
+  }
+  
+  .confirm-button {
+    background-color: #1E4C91;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    width: 150px;
+  }
+  
+  .order-line {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .order-summary h2 {
+    font-size: larger;
+    font-weight: normal;
+  }
+
+  .card-details-heading {
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+
+  img {
+    width: 20px;
+    height: 20px;
+  }
+  #card-details{
+    border: 0;
+  }
+ #card-details:focus{
+    outline:none
+  }
